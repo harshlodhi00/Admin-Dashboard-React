@@ -9,7 +9,7 @@ const Menu = () => {
         <div className="item" key={item.id}>
           <span className="title">{item.title.toUpperCase()}</span>
           {item.listItems.map((ListItem) => (
-            <Link to={ListItem.url} className="listItems">
+            <Link key={ListItem.id} to={ListItem.url} className="listItems">
               <img src={ListItem.icon} alt="" />
               <span className="listItemTitle">{ListItem.title}</span>
             </Link>
