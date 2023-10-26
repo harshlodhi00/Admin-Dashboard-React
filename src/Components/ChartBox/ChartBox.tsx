@@ -18,7 +18,7 @@ const ChartBox = (props: Props) => {
       <div className="boxInfo">
         <div className="title">
           <img src={props.icon} alt="" />
-          <span>Total Users</span>
+          <span>{props.title}</span>
         </div>
         <h1>{props.number}</h1>
         <Link to="/" style={{ color: props.color }}>

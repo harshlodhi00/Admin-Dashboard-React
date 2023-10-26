@@ -1,7 +1,10 @@
 .footer {
   display: flex;
   justify-content: space-between;
+  height: 60px;
+  align-items: baseline;
   margin: 10px 10px 0px 10px;
+
 
   span {
     &:first-child {

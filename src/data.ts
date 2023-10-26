@@ -171,7 +171,7 @@ export const chartBoxUser = {
   color: "#8884d8",
   icon: "/userIcon.svg",
   title: "Total Users",
-  number: "11.238",
+  number: "11238",
   dataKey: "users",
   percentage: 45,
   chartData: [
@@ -554,6 +554,8 @@ export const products = [
     inStock: true,
   },
 ];
+
+
 
 export const singleUser = {
   id: 1,
