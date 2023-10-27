@@ -7,6 +7,8 @@ import Footer from "./Components/Footer/Footer";
 import Menu from "./Components/Menu/Menu";
 import Login from "./Pages/Login/Login";
 import "./Styles/Globle.scss";
+import SingleUserPage from "./Pages/SingleUserPage/SingleUserPage";
+import SingleProductPage from "./Pages/SingleProductPage/SingleProductPage";
 
 function App() {
   const Layout = () => {
@@ -42,6 +44,14 @@ function App() {
         {
           path: "/products",
           element: <Products />,
+        },
+        {
+          path: "/users/:id",
+          element: <SingleUserPage />,
+        },
+        {
+          path: "/products/:id",
+          element: <SingleProductPage />,
         },
       ],
     },

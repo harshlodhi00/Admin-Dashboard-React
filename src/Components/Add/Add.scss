@@ -1,0 +1,87 @@
+@import "../../Styles/variable.scss";
+.add {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.724);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .modal {
+    padding: 50px;
+    border-radius: 10px;
+    background-color: $main-bg;
+    position: relative;
+
+    h1 {
+      margin-bottom: 40px;
+      font-size: 24px;
+      color: $soft-color;
+    }
+
+    .close {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      cursor: pointer;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:hover {
+        background-color: $soft-bg;
+      }
+    }
+
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 600px;
+      justify-content: space-around;
+
+      .item {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 20px;
+
+        label {
+          font-size: 16px;
+        }
+
+        input {
+          font-size: 18px;
+          padding: 10px;
+          background-color: transparent;
+          color: white;
+          outline: none;
+          border-radius: 5px;
+          border: 1px solid $soft-color;
+        }
+      }
+
+      button {
+        padding: 10px;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid $soft-color;
+        font-size: 16px;
+        color: white;
+        background: transparent;
+        width: 80%;
+        margin: 10px auto;
+
+        &:hover {
+          background-color: $soft-bg;
+        }
+      }
+    }
+  }
+}
