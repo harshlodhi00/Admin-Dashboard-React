@@ -1,0 +1,26 @@
+@import "../../Styles/variable.scss";
+
+.users {
+  .info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+
+    button {
+      padding: 10px;
+      cursor: pointer;
+      padding: 10px;
+      border-radius: 5px;
+      border: 2px solid $soft-color;
+      // border: none;
+      font-size: 16px;
+      color: white;
+      background: transparent;
+
+      &:hover {
+        background-color: $soft-bg;
+      }
+    }
+  }
+}

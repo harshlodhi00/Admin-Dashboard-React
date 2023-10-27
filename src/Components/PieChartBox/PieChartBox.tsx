@@ -35,7 +35,7 @@ const PieChartBox = () => {
 
       <div className="options">
         {data.map((item) => (
-          <div className="option">
+          <div className="option" key={item.name}>
             <div className="title">
               <div
                 className="dot"
