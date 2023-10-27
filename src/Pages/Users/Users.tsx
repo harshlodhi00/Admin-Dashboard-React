@@ -5,14 +5,21 @@ const Users = () => {
     <div className="users">
       <div className="info">
         <h1>Users</h1>
-        <button className="Button">Add New User</button>
-        <button className="Button">Add New User</button>
-        <button className="Button">Add New User</button>
-        <button className="Button">Add New User</button>
-        <button className="Button">Add New User</button>
         <button>Add New User</button>
-        <button>Add New User</button>
-        <button>Add New User</button>
+      </div>
+
+      <div className="tableContainer">
+        <table>
+          <thead>
+            <tr>
+              <th>Username</th>
+              <th>Email</th>
+              <th>Role</th>
+              <th>Status</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+        </table>
       </div>
     </div>
   );
