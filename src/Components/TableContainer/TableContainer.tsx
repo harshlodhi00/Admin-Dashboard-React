@@ -1,7 +1,10 @@
 import "./TableContainer.scss";
 
 const TableContainer = () => {
-  return <div>TableContainer</div>;
+  return <div>
+    
+
+  </div>;
 };
 
 export default TableContainer;
