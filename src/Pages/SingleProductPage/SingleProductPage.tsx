@@ -1,10 +1,11 @@
 import Single from "../../Components/Single/Single";
+import { singleProduct } from "../../data";
 import "./SingleProductPage.scss";
 
 const SingleProductPage = () => {
   return (
     <div className="SingleProductPage">
-      <Single/>
+      <Single {...singleProduct} />
     </div>
   );
 };
