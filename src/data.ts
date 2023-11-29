@@ -5,13 +5,13 @@ export const menu = [
     listItems: [
       {
         id: 1,
-        title: "Homepage",
+        title: "Homepage🔺",
         url: "/",
         icon: "home.svg",
       },
       {
         id: 2,
-        title: "Profile",
+        title: "Profile 🔺",
         url: "/users/1",
         icon: "user.svg",
       },
@@ -23,13 +23,13 @@ export const menu = [
     listItems: [
       {
         id: 1,
-        title: "Users",
+        title: "Users🔺",
         url: "/users",
         icon: "user.svg",
       },
       {
         id: 2,
-        title: "Products",
+        title: "Products🔺",
         url: "/products",
         icon: "product.svg",
       },

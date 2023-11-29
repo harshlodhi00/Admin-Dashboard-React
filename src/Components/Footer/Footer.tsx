@@ -3,7 +3,7 @@ import "./Footer.scss";
 const Footer = () => {
   return (
     <div className="footer ">
-      <span>Admin Dashboard</span>
+      <span>Admin Dashboard <span>(🔺 == Working)</span></span>
       <span>
         Made By ❤️ by{" "}
         <a href="mailto:harsh.lodhi.19e@iitram.ac.in">Harsh Lodhi</a>
