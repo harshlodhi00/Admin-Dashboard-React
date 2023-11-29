@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="logo">
         <img src="logo.svg" alt="" />
-        <div>lamadmin</div>
+        <div>React Admin Dashboard</div>
       </div>
       <div className="icons">
         <img src="/search.svg" alt="" className="icons" />

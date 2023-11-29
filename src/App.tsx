@@ -9,6 +9,7 @@ import Login from "./Pages/Login/Login";
 import "./Styles/Globle.scss";
 import SingleUserPage from "./Pages/SingleUserPage/SingleUserPage";
 import SingleProductPage from "./Pages/SingleProductPage/SingleProductPage";
+import PageNotFound from "./Pages/PageNotFound/PageNotFound";
 
 function App() {
   const Layout = () => {
@@ -54,6 +55,7 @@ function App() {
           element: <SingleProductPage />,
         },
       ],
+      errorElement: <PageNotFound />,
     },
     {
       path: "/login",
