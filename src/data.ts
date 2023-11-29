@@ -54,25 +54,25 @@ export const menu = [
       {
         id: 1,
         title: "Elements",
-        url: "/",
+        url: "/Elements",
         icon: "element.svg",
       },
       {
         id: 2,
         title: "Notes",
-        url: "/",
+        url: "/Notes",
         icon: "note.svg",
       },
       {
         id: 3,
         title: "Forms",
-        url: "/",
+        url: "/Forms",
         icon: "form.svg",
       },
       {
         id: 4,
         title: "Calendar",
-        url: "/",
+        url: "/Calendar",
         icon: "calendar.svg",
       },
     ],
@@ -84,13 +84,13 @@ export const menu = [
       {
         id: 1,
         title: "Settings",
-        url: "/",
+        url: "/Settings",
         icon: "setting.svg",
       },
       {
         id: 2,
         title: "Backups",
-        url: "/",
+        url: "/Backups",
         icon: "backup.svg",
       },
     ],
@@ -102,13 +102,13 @@ export const menu = [
       {
         id: 1,
         title: "Charts",
-        url: "/",
+        url: "/Charts",
         icon: "chart.svg",
       },
       {
         id: 2,
         title: "Logs",
-        url: "/",
+        url: "/Logs",
         icon: "log.svg",
       },
     ],
@@ -554,8 +554,6 @@ export const products = [
     inStock: true,
   },
 ];
-
-
 
 export const singleUser = {
   id: 1,
